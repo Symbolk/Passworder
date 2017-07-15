@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dip"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bitmap_book_read_chapterlist_repeat"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="240dip"
+        android:layout_height="40.0dip"
+        android:background="#ff313131"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:text="菜单"
+        android:textColor="#ff959595"
+        android:textSize="20.0sp" />
+    
+	<com.ryg.expandable.ui.RoundImageView
+	    android:id="@+id/user"
+	   android:layout_width="100dip"
+	    android:layout_height="100dip"
+	    android:scaleType="fitCenter"
+	    android:clickable="true"
+	  android:gravity="center"
+        android:layout_marginLeft="15dip"
+	    android:src="@drawable/usericon" />
+
+
+    <View
+        android:layout_width="240dip"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+ 
+
+    <View
+        android:layout_width="240dip"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="240dip"
+        android:layout_height="50.0dip"
+        android:background="@drawable/selector_category_item"
+        android:clickable="true"
+        android:drawableLeft="@drawable/add"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="添加"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+   
+     <View
+        android:layout_width="240dip"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+    <TextView
+         android:id="@+id/about"
+        android:layout_width="240dip"
+        android:layout_height="50.0dip"
+        android:background="@drawable/selector_category_item"
+        android:clickable="true"
+        android:drawableLeft="@drawable/about"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="关于"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="240dip"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+   
+       <TextView
+        android:id="@+id/exit"
+        android:layout_width="240dip"
+        android:layout_height="50.0dip"
+        android:background="@drawable/selector_category_item"
+        android:clickable="true"
+        android:drawableLeft="@drawable/exit"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="退出"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+      <View
+        android:layout_width="240dip"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+      
+
+</LinearLayout>

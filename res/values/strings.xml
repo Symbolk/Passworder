@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">密码大管家</string>
+    <string name="hello_world">密码大管家!</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main">密码大管家</string>
+
+</resources>
