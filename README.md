@@ -66,7 +66,7 @@ shopping, social networks, emails, e.t.c.
 
 ## Try It
 
-Just download the APK file [Passworder](https://github.com/Symbolk/NWPUHelper/blob/master/Passworder.apk) and install it.
+Just download the APK file [Passworder](https://github.com/Symbolk/Passworder/blob/master/Passworder.apk) and install it.
 
 ## Screenshots
 
